@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lessonOnline_vdk", "lessonOnline_vdk.csproj", "{470CA06F-4D42-4AF7-9C21-A11034A49E9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{470CA06F-4D42-4AF7-9C21-A11034A49E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470CA06F-4D42-4AF7-9C21-A11034A49E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470CA06F-4D42-4AF7-9C21-A11034A49E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470CA06F-4D42-4AF7-9C21-A11034A49E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {859E2208-7171-4373-B924-407CAA5C34D6}
+	EndGlobalSection
+EndGlobal

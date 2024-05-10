@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "them moi sinh vien";
+}
+
+<h2>them moi sinh vien</h2>
+<hr />
+@using (Html.BeginForm())
+{ 
+<div>
+    @Html.Label("hoten")
+    @Html.TextBox("fullname")
+</div>
+<div>
+    @Html.Label("ma so")
+    @Html.TextBox("MaSV")
+</div>
+<div>
+    @Html.Label("tai khoan")
+    @Html.TextBox("taikhoan","", new {@class="form-control"})
+</div>
+<div>
+    @Html.Label("mat khau")
+    @Html.Password("matkhau")
+</div>
+<button>Submit</button>
+}
+

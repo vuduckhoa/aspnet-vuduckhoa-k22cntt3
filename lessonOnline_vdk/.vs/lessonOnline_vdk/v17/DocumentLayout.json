@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\hoc\\aspnet\\lessonOnline_vdk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|d:\\hoc\\aspnet\\lessononline_vdk\\controllers\\vdkstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|solutionrelative:controllers\\vdkstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|d:\\hoc\\aspnet\\lessononline_vdk\\views\\vdkstudent\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|solutionrelative:views\\vdkstudent\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|d:\\hoc\\aspnet\\lessononline_vdk\\views\\vdkstudent\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|solutionrelative:views\\vdkstudent\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|d:\\hoc\\aspnet\\lessononline_vdk\\views\\vdkstudent\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|solutionrelative:views\\vdkstudent\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|d:\\hoc\\aspnet\\lessononline_vdk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{470CA06F-4D42-4AF7-9C21-A11034A49E9A}|lessonOnline_vdk.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ketqua.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\VDKStudent\\ketqua.cshtml",
+              "RelativeDocumentMoniker": "Views\\VDKStudent\\ketqua.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\VDKStudent\\ketqua.cshtml",
+              "RelativeToolTip": "Views\\VDKStudent\\ketqua.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T12:09:53.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddNewStudent.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\VDKStudent\\AddNewStudent.cshtml",
+              "RelativeDocumentMoniker": "Views\\VDKStudent\\AddNewStudent.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\VDKStudent\\AddNewStudent.cshtml",
+              "RelativeToolTip": "Views\\VDKStudent\\AddNewStudent.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T11:51:51.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\VDKStudent\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "Views\\VDKStudent\\ChiTiet.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\VDKStudent\\ChiTiet.cshtml",
+              "RelativeToolTip": "Views\\VDKStudent\\ChiTiet.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T11:13:12.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VDKStudentController.cs",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Controllers\\VDKStudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VDKStudentController.cs",
+              "ToolTip": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Controllers\\VDKStudentController.cs",
+              "RelativeToolTip": "Controllers\\VDKStudentController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwC0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:03:20.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\lessonOnline_vdk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T11:01:21.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
