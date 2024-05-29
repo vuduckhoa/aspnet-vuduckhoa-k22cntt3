@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|c:\\users\\zenbook\\onedrive\\documents\\visual studio 2022\\lesson06\\lesson06\\views\\pvvsong\\pvvindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|solutionrelative:lesson06\\views\\pvvsong\\pvvindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|c:\\users\\zenbook\\onedrive\\documents\\visual studio 2022\\lesson06\\lesson06\\views\\pvvsong\\pvvcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|solutionrelative:lesson06\\views\\pvvsong\\pvvcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|c:\\users\\zenbook\\onedrive\\documents\\visual studio 2022\\lesson06\\lesson06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|solutionrelative:lesson06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|c:\\users\\zenbook\\onedrive\\documents\\visual studio 2022\\lesson06\\lesson06\\controllers\\pvvsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|solutionrelative:lesson06\\controllers\\pvvsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|c:\\users\\zenbook\\onedrive\\documents\\visual studio 2022\\lesson06\\lesson06\\models\\pvvsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7209741C-4B8C-416E-9F37-CEEE11255AC9}|lesson06\\lesson06.csproj|solutionrelative:lesson06\\models\\pvvsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PvvCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Views\\PvvSong\\PvvCreate.cshtml",
+              "RelativeDocumentMoniker": "lesson06\\Views\\PvvSong\\PvvCreate.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Views\\PvvSong\\PvvCreate.cshtml",
+              "RelativeToolTip": "lesson06\\Views\\PvvSong\\PvvCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:33:36.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PvvSong.cs",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Models\\PvvSong.cs",
+              "RelativeDocumentMoniker": "lesson06\\Models\\PvvSong.cs",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Models\\PvvSong.cs",
+              "RelativeToolTip": "lesson06\\Models\\PvvSong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:47:53.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lesson06\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lesson06\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T01:39:49.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PvvSongController.cs",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Controllers\\PvvSongController.cs",
+              "RelativeDocumentMoniker": "lesson06\\Controllers\\PvvSongController.cs",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Controllers\\PvvSongController.cs",
+              "RelativeToolTip": "lesson06\\Controllers\\PvvSongController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:54:24.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PvvIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Views\\PvvSong\\PvvIndex.cshtml",
+              "RelativeDocumentMoniker": "lesson06\\Views\\PvvSong\\PvvIndex.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\lesson06\\lesson06\\Views\\PvvSong\\PvvIndex.cshtml",
+              "RelativeToolTip": "lesson06\\Views\\PvvSong\\PvvIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:24:07.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
