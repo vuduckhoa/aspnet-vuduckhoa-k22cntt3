@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|solutionrelative:controllers\\vdkcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|d:\\hoc\\aspnet\\vdklesson06cf\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|D:\\hoc\\aspnet\\Vdklesson06CF\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|d:\\hoc\\aspnet\\vdklesson06cf\\models\\vdkbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|D:\\hoc\\aspnet\\Vdklesson06CF\\models\\vdkbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|solutionrelative:models\\vdkbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|d:\\hoc\\aspnet\\vdklesson06cf\\models\\vdkcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|D:\\hoc\\aspnet\\Vdklesson06CF\\models\\vdkcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|solutionrelative:models\\vdkcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|d:\\hoc\\aspnet\\vdklesson06cf\\models\\vdkbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|D:\\hoc\\aspnet\\Vdklesson06CF\\models\\vdkbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC89CEE7-43AF-44DB-B4DF-8B83D1FC56C7}|Vdklesson06CF.csproj|solutionrelative:models\\vdkbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Web.config",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-06-05T10:52:24.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T10:52:24.165Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Models\\VdkBookStore.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T10:46:34.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T10:46:34.51Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Models\\VdkBook.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T10:41:46.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T10:41:46.222Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Models\\VdkCategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T10:39:39.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T10:39:39.281Z"
             }
           ]
         }

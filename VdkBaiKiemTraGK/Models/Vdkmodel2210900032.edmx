@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VdkK22CNT3Lesson07DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="vdkKhoa">
+          <Key>
+            <PropertyRef Name="VdkMaKH" />
+          </Key>
+          <Property Name="VdkMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="VdkTenKH" Type="nvarchar" MaxLength="50" />
+          <Property Name="VdkTrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="vdkSinhVien">
+          <Key>
+            <PropertyRef Name="VdkMaSV" />
+          </Key>
+          <Property Name="VdkMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="VdkHoSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="VdkTenSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="VdkNgaySinh" Type="date" />
+          <Property Name="VdkPhai" Type="bit" />
+          <Property Name="VdkPhone" Type="nchar" MaxLength="10" />
+          <Property Name="VdkEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="VdkMaKH" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityContainer Name="VdkK22CNT3Lesson07DbModelStoreContainer">
+          <EntitySet Name="vdkKhoa" EntityType="Self.vdkKhoa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="vdkSinhVien" EntityType="Self.vdkSinhVien" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VdkK22CNT3Lesson07DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="vdkKhoa">
+          <Key>
+            <PropertyRef Name="VdkMaKH" />
+          </Key>
+          <Property Name="VdkMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="VdkTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VdkTrangThai" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="vdkSinhVien">
+          <Key>
+            <PropertyRef Name="VdkMaSV" />
+          </Key>
+          <Property Name="VdkMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="VdkHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VdkTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VdkNgaySinh" Type="DateTime" Precision="0" />
+          <Property Name="VdkPhai" Type="Boolean" />
+          <Property Name="VdkPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="VdkEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VdkMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="VdkK22CNT3Lesson07DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="vdkKhoa" EntityType="Self.vdkKhoa" />
+          <EntitySet Name="vdkSinhVien" EntityType="Self.vdkSinhVien" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VdkK22CNT3Lesson07DbModelStoreContainer" CdmEntityContainer="VdkK22CNT3Lesson07DbEntities">
+          <EntitySetMapping Name="vdkKhoa">
+            <EntityTypeMapping TypeName="VdkK22CNT3Lesson07DbModel.vdkKhoa">
+              <MappingFragment StoreEntitySet="vdkKhoa">
+                <ScalarProperty Name="VdkMaKH" ColumnName="VdkMaKH" />
+                <ScalarProperty Name="VdkTenKH" ColumnName="VdkTenKH" />
+                <ScalarProperty Name="VdkTrangThai" ColumnName="VdkTrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdkSinhVien">
+            <EntityTypeMapping TypeName="VdkK22CNT3Lesson07DbModel.vdkSinhVien">
+              <MappingFragment StoreEntitySet="vdkSinhVien">
+                <ScalarProperty Name="VdkMaSV" ColumnName="VdkMaSV" />
+                <ScalarProperty Name="VdkHoSV" ColumnName="VdkHoSV" />
+                <ScalarProperty Name="VdkTenSV" ColumnName="VdkTenSV" />
+                <ScalarProperty Name="VdkNgaySinh" ColumnName="VdkNgaySinh" />
+                <ScalarProperty Name="VdkPhai" ColumnName="VdkPhai" />
+                <ScalarProperty Name="VdkPhone" ColumnName="VdkPhone" />
+                <ScalarProperty Name="VdkEmail" ColumnName="VdkEmail" />
+                <ScalarProperty Name="VdkMaKH" ColumnName="VdkMaKH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
