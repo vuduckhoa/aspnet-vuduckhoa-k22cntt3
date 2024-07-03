@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VdkK22CNT3Lesoon10DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="VdkAccount">
+    <Key>
+      <PropertyRef Name="VdkID" />
+    </Key>
+    <Property Name="VdkID" Type="Int32" Nullable="false" />
+    <Property Name="VdkUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VdkPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VdkFullName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="VdkEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VdkPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VdkActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="VdkK22CNT3Lesoon10DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="VdkAccount" EntityType="Self.VdkAccount" />
+  </EntityContainer>
+</Schema>

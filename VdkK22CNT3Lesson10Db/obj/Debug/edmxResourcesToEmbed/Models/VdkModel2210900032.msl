@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VdkK22CNT3Lesoon10DBModelStoreContainer" CdmEntityContainer="VdkK22CNT3Lesoon10DBEntities">
+    <EntitySetMapping Name="VdkAccount">
+      <EntityTypeMapping TypeName="VdkK22CNT3Lesoon10DBModel.VdkAccount">
+        <MappingFragment StoreEntitySet="VdkAccount">
+          <ScalarProperty Name="VdkID" ColumnName="VdkID" />
+          <ScalarProperty Name="VdkUserName" ColumnName="VdkUserName" />
+          <ScalarProperty Name="VdkPassword" ColumnName="VdkPassword" />
+          <ScalarProperty Name="VdkFullName" ColumnName="VdkFullName" />
+          <ScalarProperty Name="VdkEmail" ColumnName="VdkEmail" />
+          <ScalarProperty Name="VdkPhone" ColumnName="VdkPhone" />
+          <ScalarProperty Name="VdkActive" ColumnName="VdkActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

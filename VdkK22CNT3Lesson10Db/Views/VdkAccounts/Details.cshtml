@@ -1,0 +1,67 @@
+﻿@model VdkK22CNT3Lesson10Db.Models.VdkAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_VdkLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VdkAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.VdkID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

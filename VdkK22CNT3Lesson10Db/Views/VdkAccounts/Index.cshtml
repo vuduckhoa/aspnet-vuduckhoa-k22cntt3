@@ -1,0 +1,64 @@
+﻿@model IEnumerable<VdkK22CNT3Lesson10Db.Models.VdkAccount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_VdkLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.VdkID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.VdkID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.VdkID })
+        </td>
+    </tr>
+}
+
+</table>

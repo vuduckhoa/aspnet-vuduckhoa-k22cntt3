@@ -1,0 +1,73 @@
+﻿@model VdkK22CNT3Lesson10Db.Models.VdkAccount
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_VdkLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>VdkAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkActive)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

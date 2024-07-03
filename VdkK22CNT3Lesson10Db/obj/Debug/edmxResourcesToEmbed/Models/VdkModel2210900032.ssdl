@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VdkK22CNT3Lesoon10DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="VdkAccount">
+    <Key>
+      <PropertyRef Name="VdkID" />
+    </Key>
+    <Property Name="VdkID" Type="int" Nullable="false" />
+    <Property Name="VdkUserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="VdkPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="VdkFullName" Type="nchar" MaxLength="10" />
+    <Property Name="VdkEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="VdkPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="VdkActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="VdkK22CNT3Lesoon10DBModelStoreContainer">
+    <EntitySet Name="VdkAccount" EntityType="Self.VdkAccount" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
