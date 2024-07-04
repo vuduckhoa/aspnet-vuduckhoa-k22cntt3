@@ -1,0 +1,47 @@
+﻿@model IEnumerable<VdkK22CNT3Lesson11Db2210900032.Models.VdkCategory>
+
+@{
+    ViewBag.Title = "danh muc san pham";
+    Layout = "~/Views/Shared/_Vdk2210900032Layout.cshtml";
+}
+
+<h2>danh muc san pham</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+</p>
+<a href="#" class="btn btn-primary">them moi</a>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkStatus)
+        </th>
+        <th> chuc nang</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkCateName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.VdkID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.VdkID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.VdkID })
+        </td>
+    </tr>
+}
+
+</table>

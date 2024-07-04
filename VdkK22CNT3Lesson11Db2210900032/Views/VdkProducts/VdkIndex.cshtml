@@ -1,0 +1,64 @@
+﻿@model IEnumerable<VdkK22CNT3Lesson11Db2210900032.Models.VdkProduct>
+
+@{
+    ViewBag.Title = "danh sach san pham";
+    Layout = "~/Views/Shared/_Vdk2210900032Layout.cshtml";
+}
+
+<h2>dah sach san pham</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkId2210900032)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkProName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkCateId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkActive)
+        </th>
+        <th>chuc nang</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkId2210900032)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkCateId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.VdkId2210900032 }) |
+            @Html.ActionLink("Details", "Details", new { id = item.VdkId2210900032 }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.VdkId2210900032 })
+        </td>
+    </tr>
+}
+
+</table>

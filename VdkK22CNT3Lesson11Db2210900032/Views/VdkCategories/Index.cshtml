@@ -1,0 +1,40 @@
+﻿@model IEnumerable<VdkK22CNT3Lesson11Db2210900032.Models.VdkCategory>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Vdk2210900032Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VdkStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkCateName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VdkStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.VdkID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.VdkID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.VdkID })
+        </td>
+    </tr>
+}
+
+</table>

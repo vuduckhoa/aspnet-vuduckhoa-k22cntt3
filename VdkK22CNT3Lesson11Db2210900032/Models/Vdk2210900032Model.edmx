@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VdkK22CNT3Less11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="VdkCategory">
+          <Key>
+            <PropertyRef Name="VdkID" />
+          </Key>
+          <Property Name="VdkID" Type="int" Nullable="false" />
+          <Property Name="VdkCateName" Type="nvarchar" MaxLength="50" />
+          <Property Name="VdkStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="VdkProduct">
+          <Key>
+            <PropertyRef Name="VdkId2210900032" />
+          </Key>
+          <Property Name="VdkId2210900032" Type="int" Nullable="false" />
+          <Property Name="VdkProName" Type="nvarchar" MaxLength="50" />
+          <Property Name="VdkQty" Type="int" />
+          <Property Name="VdkPrice" Type="float" />
+          <Property Name="VdkCateId" Type="int" />
+          <Property Name="VdkActive" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="VdkK22CNT3Less11DbModelStoreContainer">
+          <EntitySet Name="VdkCategory" EntityType="Self.VdkCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VdkProduct" EntityType="Self.VdkProduct" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VdkK22CNT3Less11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="VdkCategory">
+          <Key>
+            <PropertyRef Name="VdkID" />
+          </Key>
+          <Property Name="VdkID" Type="Int32" Nullable="false" />
+          <Property Name="VdkCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VdkStatus" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="VdkProduct">
+          <Key>
+            <PropertyRef Name="VdkId2210900032" />
+          </Key>
+          <Property Name="VdkId2210900032" Type="Int32" Nullable="false" />
+          <Property Name="VdkProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VdkQty" Type="Int32" />
+          <Property Name="VdkPrice" Type="Double" />
+          <Property Name="VdkCateId" Type="Int32" />
+          <Property Name="VdkActive" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="VdkK22CNT3Less11DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="VdkCategory" EntityType="Self.VdkCategory" />
+          <EntitySet Name="VdkProduct" EntityType="Self.VdkProduct" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VdkK22CNT3Less11DbModelStoreContainer" CdmEntityContainer="VdkK22CNT3Less11DbEntities">
+          <EntitySetMapping Name="VdkCategory">
+            <EntityTypeMapping TypeName="VdkK22CNT3Less11DbModel.VdkCategory">
+              <MappingFragment StoreEntitySet="VdkCategory">
+                <ScalarProperty Name="VdkID" ColumnName="VdkID" />
+                <ScalarProperty Name="VdkCateName" ColumnName="VdkCateName" />
+                <ScalarProperty Name="VdkStatus" ColumnName="VdkStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VdkProduct">
+            <EntityTypeMapping TypeName="VdkK22CNT3Less11DbModel.VdkProduct">
+              <MappingFragment StoreEntitySet="VdkProduct">
+                <ScalarProperty Name="VdkId2210900032" ColumnName="VdkId2210900032" />
+                <ScalarProperty Name="VdkProName" ColumnName="VdkProName" />
+                <ScalarProperty Name="VdkQty" ColumnName="VdkQty" />
+                <ScalarProperty Name="VdkPrice" ColumnName="VdkPrice" />
+                <ScalarProperty Name="VdkCateId" ColumnName="VdkCateId" />
+                <ScalarProperty Name="VdkActive" ColumnName="VdkActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

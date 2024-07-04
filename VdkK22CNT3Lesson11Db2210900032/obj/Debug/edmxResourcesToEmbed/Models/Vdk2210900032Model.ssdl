@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VdkK22CNT3Less11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="VdkCategory">
+    <Key>
+      <PropertyRef Name="VdkID" />
+    </Key>
+    <Property Name="VdkID" Type="int" Nullable="false" />
+    <Property Name="VdkCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="VdkStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="VdkProduct">
+    <Key>
+      <PropertyRef Name="VdkId2210900032" />
+    </Key>
+    <Property Name="VdkId2210900032" Type="int" Nullable="false" />
+    <Property Name="VdkProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="VdkQty" Type="int" />
+    <Property Name="VdkPrice" Type="float" />
+    <Property Name="VdkCateId" Type="int" />
+    <Property Name="VdkActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="VdkK22CNT3Less11DbModelStoreContainer">
+    <EntitySet Name="VdkCategory" EntityType="Self.VdkCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VdkProduct" EntityType="Self.VdkProduct" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

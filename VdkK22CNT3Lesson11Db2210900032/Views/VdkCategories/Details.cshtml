@@ -1,0 +1,35 @@
+﻿@model VdkK22CNT3Lesson11Db2210900032.Models.VdkCategory
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Vdk2210900032Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VdkCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkCateName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.VdkID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

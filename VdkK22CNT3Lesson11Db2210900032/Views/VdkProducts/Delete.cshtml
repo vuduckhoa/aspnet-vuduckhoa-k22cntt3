@@ -1,0 +1,65 @@
+﻿@model VdkK22CNT3Lesson11Db2210900032.Models.VdkProduct
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Vdk2210900032Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>VdkProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkCateId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkCateId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VdkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VdkActive)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

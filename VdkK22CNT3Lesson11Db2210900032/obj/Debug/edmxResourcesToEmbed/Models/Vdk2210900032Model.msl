@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VdkK22CNT3Less11DbModelStoreContainer" CdmEntityContainer="VdkK22CNT3Less11DbEntities">
+    <EntitySetMapping Name="VdkCategory">
+      <EntityTypeMapping TypeName="VdkK22CNT3Less11DbModel.VdkCategory">
+        <MappingFragment StoreEntitySet="VdkCategory">
+          <ScalarProperty Name="VdkID" ColumnName="VdkID" />
+          <ScalarProperty Name="VdkCateName" ColumnName="VdkCateName" />
+          <ScalarProperty Name="VdkStatus" ColumnName="VdkStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VdkProduct">
+      <EntityTypeMapping TypeName="VdkK22CNT3Less11DbModel.VdkProduct">
+        <MappingFragment StoreEntitySet="VdkProduct">
+          <ScalarProperty Name="VdkId2210900032" ColumnName="VdkId2210900032" />
+          <ScalarProperty Name="VdkProName" ColumnName="VdkProName" />
+          <ScalarProperty Name="VdkQty" ColumnName="VdkQty" />
+          <ScalarProperty Name="VdkPrice" ColumnName="VdkPrice" />
+          <ScalarProperty Name="VdkCateId" ColumnName="VdkCateId" />
+          <ScalarProperty Name="VdkActive" ColumnName="VdkActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
