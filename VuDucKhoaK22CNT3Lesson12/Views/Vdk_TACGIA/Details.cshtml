@@ -1,0 +1,27 @@
+﻿@model VuDucKhoaK22CNT3Lesson12.Models.Vdk_TACGIA
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_VdkLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Vdk_TACGIA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Vdk_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vdk_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Vdk_MaTG }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

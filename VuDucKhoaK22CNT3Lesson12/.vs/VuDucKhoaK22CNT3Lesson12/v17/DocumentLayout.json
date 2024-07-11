@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\views\\vdkhome\\vdkcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:views\\vdkhome\\vdkcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\controllers\\vdk_sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:controllers\\vdk_sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\controllers\\vdk_tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:controllers\\vdk_tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\views\\shared\\_vdklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:views\\shared\\_vdklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\controllers\\vdkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:controllers\\vdkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\views\\vdkhome\\vdkabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:views\\vdkhome\\vdkabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|d:\\hoc\\aspnet\\vuduckhoak22cnt3lesson12\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BA15A31-E6FD-46EC-B932-223451C7C6A3}|VuDucKhoaK22CNT3Lesson12.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VdkContact.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\VdkHome\\VdkContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\VdkHome\\VdkContact.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\VdkHome\\VdkContact.cshtml",
+              "RelativeToolTip": "Views\\VdkHome\\VdkContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T03:58:01.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VdkHomeController.cs",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Controllers\\VdkHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VdkHomeController.cs",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Controllers\\VdkHomeController.cs",
+              "RelativeToolTip": "Controllers\\VdkHomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:57:36.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vdk_TACGIAController.cs",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Controllers\\Vdk_TACGIAController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Vdk_TACGIAController.cs",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Controllers\\Vdk_TACGIAController.cs",
+              "RelativeToolTip": "Controllers\\Vdk_TACGIAController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:56:38.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vdk_SACHController.cs",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Controllers\\Vdk_SACHController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Vdk_SACHController.cs",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Controllers\\Vdk_SACHController.cs",
+              "RelativeToolTip": "Controllers\\Vdk_SACHController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:55:27.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VdkAbout.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\VdkHome\\VdkAbout.cshtml",
+              "RelativeDocumentMoniker": "Views\\VdkHome\\VdkAbout.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\VdkHome\\VdkAbout.cshtml",
+              "RelativeToolTip": "Views\\VdkHome\\VdkAbout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T03:53:20.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_VdkLayout.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\Shared\\_VdkLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_VdkLayout.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\Shared\\_VdkLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_VdkLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T03:42:04.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:41:51.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\hoc\\aspnet\\VuDucKhoaK22CNT3Lesson12\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T03:40:38.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

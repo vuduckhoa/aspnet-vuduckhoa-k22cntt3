@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VuDucKhoaa_2210900032Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Vdk_SACH">
+    <Key>
+      <PropertyRef Name="Vdk_MaSach" />
+    </Key>
+    <Property Name="Vdk_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Vdk_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vdk_SoTrang" Type="Int32" />
+    <Property Name="Vdk_NamXB" Type="Int32" />
+    <Property Name="Vdk_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Vdk_TrangThai" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Vdk_TACGIA">
+    <Key>
+      <PropertyRef Name="Vdk_MaTG" />
+    </Key>
+    <Property Name="Vdk_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Vdk_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="VuDucKhoaa_2210900032Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Vdk_SACH" EntityType="Self.Vdk_SACH" />
+    <EntitySet Name="Vdk_TACGIA" EntityType="Self.Vdk_TACGIA" />
+  </EntityContainer>
+</Schema>

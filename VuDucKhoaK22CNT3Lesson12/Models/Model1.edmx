@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VuDucKhoaa_2210900032Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Vdk_SACH">
+          <Key>
+            <PropertyRef Name="Vdk_MaSach" />
+          </Key>
+          <Property Name="Vdk_MaSach" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="Vdk_TenSach" Type="nvarchar" MaxLength="50" />
+          <Property Name="Vdk_SoTrang" Type="int" />
+          <Property Name="Vdk_NamXB" Type="int" />
+          <Property Name="Vdk_MaTG" Type="char" MaxLength="10" />
+          <Property Name="Vdk_TrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="Vdk_TACGIA">
+          <Key>
+            <PropertyRef Name="Vdk_MaTG" />
+          </Key>
+          <Property Name="Vdk_MaTG" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="Vdk_TenTG" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="VuDucKhoaa_2210900032ModelStoreContainer">
+          <EntitySet Name="Vdk_SACH" EntityType="Self.Vdk_SACH" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Vdk_TACGIA" EntityType="Self.Vdk_TACGIA" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VuDucKhoaa_2210900032Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Vdk_SACH">
+          <Key>
+            <PropertyRef Name="Vdk_MaSach" />
+          </Key>
+          <Property Name="Vdk_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Vdk_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Vdk_SoTrang" Type="Int32" />
+          <Property Name="Vdk_NamXB" Type="Int32" />
+          <Property Name="Vdk_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="Vdk_TrangThai" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Vdk_TACGIA">
+          <Key>
+            <PropertyRef Name="Vdk_MaTG" />
+          </Key>
+          <Property Name="Vdk_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Vdk_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="VuDucKhoaa_2210900032Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Vdk_SACH" EntityType="Self.Vdk_SACH" />
+          <EntitySet Name="Vdk_TACGIA" EntityType="Self.Vdk_TACGIA" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VuDucKhoaa_2210900032ModelStoreContainer" CdmEntityContainer="VuDucKhoaa_2210900032Entities">
+          <EntitySetMapping Name="Vdk_SACH">
+            <EntityTypeMapping TypeName="VuDucKhoaa_2210900032Model.Vdk_SACH">
+              <MappingFragment StoreEntitySet="Vdk_SACH">
+                <ScalarProperty Name="Vdk_MaSach" ColumnName="Vdk_MaSach" />
+                <ScalarProperty Name="Vdk_TenSach" ColumnName="Vdk_TenSach" />
+                <ScalarProperty Name="Vdk_SoTrang" ColumnName="Vdk_SoTrang" />
+                <ScalarProperty Name="Vdk_NamXB" ColumnName="Vdk_NamXB" />
+                <ScalarProperty Name="Vdk_MaTG" ColumnName="Vdk_MaTG" />
+                <ScalarProperty Name="Vdk_TrangThai" ColumnName="Vdk_TrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Vdk_TACGIA">
+            <EntityTypeMapping TypeName="VuDucKhoaa_2210900032Model.Vdk_TACGIA">
+              <MappingFragment StoreEntitySet="Vdk_TACGIA">
+                <ScalarProperty Name="Vdk_MaTG" ColumnName="Vdk_MaTG" />
+                <ScalarProperty Name="Vdk_TenTG" ColumnName="Vdk_TenTG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

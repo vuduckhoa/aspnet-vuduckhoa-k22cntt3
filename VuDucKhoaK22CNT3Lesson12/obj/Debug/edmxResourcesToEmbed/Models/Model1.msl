@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VuDucKhoaa_2210900032ModelStoreContainer" CdmEntityContainer="VuDucKhoaa_2210900032Entities">
+    <EntitySetMapping Name="Vdk_SACH">
+      <EntityTypeMapping TypeName="VuDucKhoaa_2210900032Model.Vdk_SACH">
+        <MappingFragment StoreEntitySet="Vdk_SACH">
+          <ScalarProperty Name="Vdk_MaSach" ColumnName="Vdk_MaSach" />
+          <ScalarProperty Name="Vdk_TenSach" ColumnName="Vdk_TenSach" />
+          <ScalarProperty Name="Vdk_SoTrang" ColumnName="Vdk_SoTrang" />
+          <ScalarProperty Name="Vdk_NamXB" ColumnName="Vdk_NamXB" />
+          <ScalarProperty Name="Vdk_MaTG" ColumnName="Vdk_MaTG" />
+          <ScalarProperty Name="Vdk_TrangThai" ColumnName="Vdk_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vdk_TACGIA">
+      <EntityTypeMapping TypeName="VuDucKhoaa_2210900032Model.Vdk_TACGIA">
+        <MappingFragment StoreEntitySet="Vdk_TACGIA">
+          <ScalarProperty Name="Vdk_MaTG" ColumnName="Vdk_MaTG" />
+          <ScalarProperty Name="Vdk_TenTG" ColumnName="Vdk_TenTG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

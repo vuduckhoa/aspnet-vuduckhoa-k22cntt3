@@ -1,0 +1,34 @@
+﻿@model IEnumerable<VuDucKhoaK22CNT3Lesson12.Models.Vdk_TACGIA>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_VdkLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Vdk_TenTG)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vdk_TenTG)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Vdk_MaTG }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Vdk_MaTG }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Vdk_MaTG })
+        </td>
+    </tr>
+}
+
+</table>
